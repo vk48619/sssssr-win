@@ -13,7 +13,7 @@ namespace Shadowsocks.Controller
 {
     public class UpdateFreeNode
     {
-        private const string UpdateURL = "请粘贴仟佰星云-用户中心-仪表盘-配置中心的订阅地址";
+        private const string UpdateURL = "https://raw.githubusercontent.com/breakwa11/breakwa11.github.io/master/free/freenodeplain.txt";
 
         public event EventHandler NewFreeNodeFound;
         public string FreeNodeResult;

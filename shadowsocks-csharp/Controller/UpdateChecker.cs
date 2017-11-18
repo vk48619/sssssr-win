@@ -20,7 +20,7 @@ namespace Shadowsocks.Controller
         public event EventHandler NewVersionFound;
 
         public const string Name = "ShadowsocksR";
-        public const string Copyright = "Copyright © 仟佰星云 2017. Fork from Shadowsocks by clowwindy";
+        public const string Copyright = "Copyright © BreakWa11 2017. Fork from Shadowsocks by clowwindy";
         public const string Version = "4.7.0";
 #if !_DOTNET_4_0
         public const string NetVer = "2.0";

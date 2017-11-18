@@ -12,11 +12,11 @@ namespace Shadowsocks.Controller
 {
     public class GFWListUpdater
     {
-        private const string GFWLIST_URL = "https://qianbai.ml/ssr-download/pac.txt";
+        private const string GFWLIST_URL = "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt";
 
-        private const string GFWLIST_BACKUP_URL = "https://qianbai.ml/ssr-download/pac.txt";
+        private const string GFWLIST_BACKUP_URL = "https://raw.githubusercontent.com/breakwa11/breakwa11.github.io/master/ssr/gfwlist.txt";
 
-        private const string GFWLIST_TEMPLATE_URL = "https://qianbai.ml/ssr-download/pac.pac";
+        private const string GFWLIST_TEMPLATE_URL = "https://raw.githubusercontent.com/breakwa11/breakwa11.github.io/master/ssr/ss_gfw.pac";
 
         private static string PAC_FILE = PACServer.PAC_FILE;
 
