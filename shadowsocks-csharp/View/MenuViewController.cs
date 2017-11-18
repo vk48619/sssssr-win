@@ -909,12 +909,12 @@ namespace Shadowsocks.View
 
         private void OpenWiki_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/breakwa11/shadowsocks-rss/wiki");
+            Process.Start("https://qianbai.ml/Course.html");
         }
 
         private void FeedbackItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/shadowsocksr/shadowsocksr-csharp/issues/new");
+            Process.Start("https://qianbai.ml/user/ticket");
         }
 
         private void ResetPasswordItem_Click(object sender, EventArgs e)
@@ -926,12 +926,12 @@ namespace Shadowsocks.View
 
         private void AboutItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://breakwa11.github.io");
+            Process.Start("https://qianbai.ml");
         }
 
         private void DonateItem_Click(object sender, EventArgs e)
         {
-            ShowBalloonTip(I18N.GetString("Donate"), I18N.GetString("Please contract to breakwa11 to get more infomation"), ToolTipIcon.Info, 10000);
+            ShowBalloonTip(I18N.GetString("Donate"), I18N.GetString("请通过仟佰星云官方网站进行捐献噢~"), ToolTipIcon.Info, 10000);
         }
 
         [DllImport("user32.dll")]

@@ -50,6 +50,7 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
     <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningLevel>1</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -158,6 +159,7 @@
     <Compile Include="Encryption\SodiumEncryptor.cs" />
     <Compile Include="Encryption\IEncryptor.cs" />
     <Compile Include="Controller\PACServer.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Model\Host.cs" />
     <Compile Include="Model\IPRangeSet.cs" />
     <Compile Include="Model\IPSegment.cs" />
@@ -290,18 +292,18 @@
     <None Include="Data\privoxy.exe.gz" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Data\proxy.pac.txt.gz" />
+    <Content Include="shadowsocks.ico" />
+    <Content Include="Data\proxy.pac.txt.gz" />
     <None Include="Properties\DataSources\Shadowsocks.View.ConfigForm.datasource" />
     <None Include="Resources\ss20.png" />
     <None Include="Resources\ss16.png" />
     <None Include="Resources\ss24.png" />
-    <None Include="Resources\ssw128.png" />
     <Content Include="Data\cn.txt" />
     <None Include="Data\privoxy_conf.txt" />
     <Content Include="Data\user-rule.txt" />
     <None Include="Data\zh-tw.txt" />
     <None Include="Resources\46418775_p0.jpg" />
-    <Content Include="shadowsocks.ico" />
+    <None Include="Resources\ssw128.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

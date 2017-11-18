@@ -232,5 +232,10 @@ namespace Shadowsocks.View
                 NumTTL.Value = 60;
             }
         }
+
+        private void RandomComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -66,7 +66,7 @@ namespace Shadowsocks.Model
     [Serializable]
     public class ServerSubscribe
     {
-        private static string DEFAULT_FEED_URL = "https://raw.githubusercontent.com/breakwa11/breakwa11.github.io/master/free/freenodeplain.txt";
+        private static string DEFAULT_FEED_URL = "请粘贴仟佰星云-用户中心-仪表盘-配置中心的订阅地址";
         //private static string OLD_DEFAULT_FEED_URL = "https://raw.githubusercontent.com/breakwa11/breakwa11.github.io/master/free/freenode.txt";
 
         public string URL = DEFAULT_FEED_URL;

@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // 控制。更改这些属性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle(UpdateChecker.Name)]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("仟佰星云ssr for Windows")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct(UpdateChecker.Name)]
